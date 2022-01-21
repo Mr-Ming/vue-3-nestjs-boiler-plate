@@ -9,7 +9,7 @@ export class AppController {
   }
 
   @Get()
-  getHello() {
-    return this.appService.getHello();
+  getStatus() {
+    return this.appService.getStatus();
   }
 }
